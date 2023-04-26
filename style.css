@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+
+@font-face {
+    font-family:helvetical ;
+    src: url(./helveticaneue.woff2);
+}
+
+@font-face {
+    font-family:helveticam ;
+    src: url(./helveticaneue-medium.woff2);
+}
+
+@font-face {
+    font-family:hello ;
+    src: url(./hello);
+}
+
+@font-face {
+    font-family:nous ;
+    src: url(./nous);
+}
+
+#main{
+    width: 100%;
+    position: relative;
+  
+}
+
+#loader{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3C77C;
+    position: absolute;
+    top: 0;
+    transition: cubic-bezier(.59,.34,.53,1.06)1s;
+    position: relative;
+
+}
+
+img{
+    height: 260px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: none;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
