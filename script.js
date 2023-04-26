@@ -70,7 +70,6 @@ gsap.to("#loader",{
         trigger:"#nav",
         start:"top -1%",
         end:"top -1.1%",
-        markers:true,
         scrub:1
       },
       top:-100
@@ -82,7 +81,6 @@ gsap.to("#loader",{
         trigger:"#svg",
         start:"top -1%",
         end:"top -1.1%",
-        markers:true,
         scrub:1
       },
       top:-100
