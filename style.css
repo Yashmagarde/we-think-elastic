@@ -59,5 +59,28 @@ img{
 #page1{
     width: 100%;
     height: 100vh;
-    background-color: red;
+    background-color: #151414;
+    position: relative;
 }
+
+#nav{
+    width: 40%;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-family: helvetica;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e7cfb1;
+    gap:60px;
+    letter-spacing: 0.1px;
+}
+
+#nav h2{
+    font-weight: 500;
+}
+
+
