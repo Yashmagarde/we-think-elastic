@@ -96,3 +96,18 @@ gsap.to("#page1 i", {
   },
   top: -100
 })
+
+gsap.to("#page2 video",{
+  scrollTrigger:{
+      scroller:"#main",
+      trigger:"#page2 video",
+      start:"top 100%",
+      end:"top -40%",
+      scrub:1
+
+  },
+  width:`${97}vw`
+  })
+
+
+
