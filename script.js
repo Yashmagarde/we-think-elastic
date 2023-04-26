@@ -60,7 +60,7 @@ gsap.to("#limg img",{
     })
 
 gsap.to("#loader",{
-  top:-900,
+  top:-100,
   delay:2.8
 })
 
