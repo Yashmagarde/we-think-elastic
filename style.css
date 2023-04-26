@@ -63,6 +63,15 @@ img{
     position: relative;
 }
 
+#page1 i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #e7cfb1;
+    display: none;
+    
+}
+
 #nav{
     width: 40%;
     height: 100px;
@@ -83,10 +92,34 @@ img{
     font-weight: 500;
 }
 
+svg{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
 
 @media (max-width:600px) {
     #nav{
         display: none;
     }
+
+    svg{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        scale: .7;
+    }
+
+    #page1 i{
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        color: #e7cfb1;
+        display: block;
+        font-size: 30px;
+
+    }
+
+    
 }
 
