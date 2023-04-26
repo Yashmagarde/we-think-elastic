@@ -1,63 +1,64 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html,body{
-height: 100%;
-width: 100%;
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
 
 @font-face {
-    font-family:helvetical ;
+    font-family: helvetical;
     src: url(./helveticaneue.woff2);
 }
 
 @font-face {
-    font-family:helveticam ;
+    font-family: helveticam;
     src: url(./helveticaneue-medium.woff2);
 }
 
 @font-face {
-    font-family:hello ;
+    font-family: hello;
     src: url(./hello);
 }
 
 @font-face {
-    font-family:nous ;
+    font-family: nous;
     src: url(./nous);
 }
 
-#main{
+#main {
     width: 100%;
     position: relative;
-  
+
 }
 
-#loader{
+#loader {
     width: 100%;
     height: 100%;
     background-color: #F3C77C;
     position: absolute;
     top: 0;
-    transition: cubic-bezier(.59,.34,.53,1.06)1s;
+    transition: cubic-bezier(.59, .34, .53, 1.06)1s;
     position: relative;
     z-index: 99;
 
 }
 
-img{
+img {
     height: 260px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     opacity: 0;
     transition: none;
 }
 
-#page1{
+#page1 {
     width: 100%;
     height: 100vh;
     background-color: #151414;
@@ -65,16 +66,15 @@ img{
     cursor: default;
 }
 
-#page1 i{
+#page1 i {
     position: absolute;
     right: 0;
     top: 0;
     color: #e7cfb1;
     display: none;
-    
 }
 
-#nav{
+#nav {
     width: 650px;
     height: 100px;
     position: absolute;
@@ -86,79 +86,63 @@ img{
     justify-content: space-evenly;
     align-items: center;
     color: #e7cfb1;
-    gap:60.5px;
-    
+    gap: 60.5px;
 }
 
-
-
-
-
-#nav a{
+#nav a {
     font-weight: 500;
     font-family: helvetica;
     font-size: 20px;
-   color:#e7cfb1;
+    color: #e7cfb1;
     text-decoration: none;
     z-index: 1;
     cursor: pointer;
-    
 }
 
-#nav a:hover{
+#nav a:hover {
     color: orange;
 }
 
-
-
-svg{
+svg {
     position: absolute;
     left: 20px;
     top: 20px;
 }
 
-
-
-#page1 h1{
+#page1 h1 {
     position: absolute;
-    top:39.5%;
+    top: 39.5%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-family: hello;
     color: #f3c77c;
     font-size: 50vw;
     letter-spacing: -0.4vw;
 }
 
-
-
-span h2{
+span h2 {
     color: #f3c77c;
     font: helvetical;
 }
 
-
-
-
-
-#page2{
+#page2 {
     width: 100%;
     height: 100vh;
 }
 
 @media (max-width:600px) {
-    #nav{
+    #nav {
         display: none;
     }
 
-    svg{
+    svg {
         position: absolute;
         left: 10px;
         top: 10px;
         scale: .7;
     }
 
-    #page1 i{
+    #page1 i {
         position: absolute;
         right: 30px;
         top: 25px;
@@ -168,6 +152,5 @@ span h2{
 
     }
 
-    
-}
 
+}
