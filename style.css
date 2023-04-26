@@ -43,6 +43,7 @@ width: 100%;
     top: 0;
     transition: cubic-bezier(.59,.34,.53,1.06)1s;
     position: relative;
+    z-index: 99;
 
 }
 
@@ -96,6 +97,27 @@ svg{
     position: absolute;
     left: 20px;
     top: 20px;
+}
+
+
+
+#page1 h1{
+    position: absolute;
+    top:39.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: hello;
+    color: #f3c77c;
+    font-size: 50vw;
+    letter-spacing: -0.4vw;
+}
+
+
+
+
+#page2{
+    width: 100%;
+    height: 100vh;
 }
 
 @media (max-width:600px) {

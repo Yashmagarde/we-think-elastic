@@ -64,4 +64,26 @@ gsap.to("#loader",{
   delay:2.8
 })
 
-    
+    gsap.to("#nav",{
+      scrollTrigger:{
+        scroller:"#main",
+        trigger:"#nav",
+        start:"top -1%",
+        end:"top -1.1%",
+        markers:true,
+        scrub:1
+      },
+      top:-100
+    })
+
+    gsap.to("svg",{
+      scrollTrigger:{
+        scroller:"#main",
+        trigger:"#svg",
+        start:"top -1%",
+        end:"top -1.1%",
+        markers:true,
+        scrub:1
+      },
+      top:-100
+    })
