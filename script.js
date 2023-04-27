@@ -116,7 +116,6 @@ gsap.to("#scc h1",{
     start:"top 0%",
     end:"top -800%",
     scrub:3,
-    markers:true,
     pin:true
   },
   right:`${5}vw`
