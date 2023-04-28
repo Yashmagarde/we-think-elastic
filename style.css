@@ -716,6 +716,61 @@ span h2 {
     color: rgb(71, 69, 69);
 }
 
+#page10{
+    width: 100%;
+    height: 170vh;
+    background-color: #151414;
+    display: flex;
+}
+
+#page10l{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+#page10r{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+#p101{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#p102{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#p103{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#p104{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
 
 
 
@@ -1276,6 +1331,93 @@ span h2 {
         color: rgb(71, 69, 69);
     }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #page10{
+        width: 100%;
+        height: 170vh;
+        background-color: #151414;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #page10l{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+    }
+    
+    #page10r{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+    
+    }
+    
+    #p101{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+        flex-direction: column;
+      
+      
+    }
+    
+    #p102{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    #p103{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    #p104{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    #page10 img{
+        height: 30px;
+    }
 
 
 
