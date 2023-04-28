@@ -179,15 +179,6 @@ d3.addEventListener("mouseleave",function(){
 })
 
 
-
-
-
-
-
-
-
-
-
 gsap.to("#scc h1",{
   scrollTrigger:{
     scroller:"#main",
