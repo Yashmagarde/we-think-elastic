@@ -808,7 +808,48 @@ span h2 {
     width: 100%;
     height: 40vh;
     background-color: #151414;
+    
 }
+
+#page12 h1{
+    color: #e7cfb15e;
+    font-family: helvetical;
+    font-size: 6.3vw;
+    font-weight: 500;
+    padding-top: 14vh;
+    padding-left: 3vw;
+  
+}
+
+
+
+#pro{
+
+    color: #e7cfb1;
+    border-bottom: 5px solid #e7cfb1;
+}
+
+
+#bott{
+    width: 100%;
+    height: 10vh;
+    font-family: helvetical;
+font-size:12px;
+text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 10px 40px;
+}
+
+#bott p{
+    font-weight: 500
+}
+
+
 
 
 
@@ -1488,5 +1529,50 @@ span h2 {
        
     }
 
+    #page12{
+        width: 100%;
+        height: 40vh;
+        background-color: #151414;
+        
+    }
+    
+    #page12 h1{
+        color: #e7cfb15e;
+        font-family: helvetical;
+        font-size: 7vw;
+        font-weight: 500;
+        padding-top: 10vh;
+        padding-left: 3vw;
+      
+    }
+    
+    
+    
+    #pro{
+    
+        color: #e7cfb1;
+        border-bottom: 2px solid #e7cfb1;
+    }
 
+    #bott{
+        width: 100%;
+        height: 20vh;
+        font-family: helvetical;
+    font-size:12px;
+    text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+     
+     justify-content: left;
+        position: absolute;
+        bottom: 0;
+        color: white;
+       text-align: left;
+       line-height: 25px;
+    }
+
+
+    #bott p{
+        text-align: left;
+    }
 }
