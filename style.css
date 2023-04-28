@@ -772,7 +772,37 @@ span h2 {
 }
 
 
+#page11{
+    width: 100%;
+    height: 100vh;
+    background-color: #e7cfb1;
+    font-family: helvetical;
+    position: relative;
+}
 
+#page11 h1{
+    text-align: center;
+    padding-top: 14vh;
+    font-size: 5vw;
+    font-weight: 500;
+
+    line-height: 8vh;
+}
+
+#page11 img{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 35vh;
+    width: 20vw;
+    margin-top: 30px;
+}
+
+#page11 span{
+    border-bottom: 5px solid black;
+   
+}
 
 
 
@@ -1420,6 +1450,37 @@ span h2 {
         height: 30px;
     }
 
+    #page11{
+        width: 100%;
+        height: 60vh;
+        background-color: #e7cfb1;
+        font-family: helvetical;
+        position: relative;
+    }
+    
+    #page11 h1{
+        text-align: center;
+        padding-top: 11vh;
+        font-size: 7vw;
+        font-weight: 500;
+    
+        line-height: 25px;
+    }
+    
+    #page11 img{
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 50vw;
+        width: 50vw;
+        margin-top: 30px;
+    }
+
+    #page11 span{
+        border-bottom: 2px solid black;
+       
+    }
 
 
 }
