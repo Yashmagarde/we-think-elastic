@@ -851,49 +851,6 @@ text-transform: uppercase;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:600px) {
     #nav {
         display: none;
@@ -989,24 +946,6 @@ text-transform: uppercase;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1409,28 +1348,6 @@ text-transform: uppercase;
         color: rgb(71, 69, 69);
     }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     #page10{
         width: 100%;
