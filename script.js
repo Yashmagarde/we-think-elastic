@@ -184,7 +184,7 @@ gsap.to("#scc h1",{
     scroller:"#main",
     trigger:"#page8",
     start:"top 0%",
-    end:"top -800%",
+    end:"top -100%",
     scrub:3,
     pin:true
   },
